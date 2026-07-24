@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY app/ ./app/
 COPY models/ ./models/
+COPY static/ ./static/
 
 EXPOSE 8000
 
